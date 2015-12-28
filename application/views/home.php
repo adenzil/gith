@@ -27,11 +27,20 @@ error_reporting(0);
 
   <div class="animated zoomInRight">
 
-    <div class="input-group search-bar">
-      <input type="text" ng-model="search" ng-change="change()" ng-keyup="enter($event)" onclick="select()" class="form-control" placeholder="Enter github username" autofocus />
-      <span class="input-group-addon bar-style"><i class="glyphicon glyphicon-search"></i></span>
-    </div>
-    
+  <div id="mul">
+
+        <div id="1">
+          <div class="input-group search-bar">
+            <input type="text" ng-model="search" ng-change="change()" ng-keyup="enter($event)" onclick="select()" class="form-control" placeholder="Enter github username" autofocus />
+            <span class="input-group-addon bar-style"><i class="glyphicon glyphicon-search"></i></span>
+          </div>
+          <div class="userdata"></div>
+        </div>
+
+  </div>
+
+  <div class="fx-rotate-counterclock-up fx-speed-500 fx-trigger fx-easing-quad adduser ">ADD USER</div>
+
   </div>
 
 </body>
